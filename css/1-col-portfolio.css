@@ -33,7 +33,9 @@ h1 { font-family: 'Lato', sans-serif;
 
 @media screen and (min-width: 768px) {
 	
-	.modal-dialog  {width:1050px;}
+    .modal-dialog  {
+        width:1050px;
+    }
 
 }
 
@@ -79,50 +81,17 @@ font-kerning: normal; /* Safari 7+, Firefox 24+, Chrome 33(?)+, Opera 21+*/
    color: #888;
 }
 
-
-/* animation section */
-
-.repeat-animation {
-  line-height:20px;
-}
-
-.repeat-animation.ng-enter-stagger,
-.repeat-animation.ng-leave-stagger,
-.repeat-animation.ng-move-stagger {
-  /* 200ms will be applied between each sucessive enter operation */ 
-  -webkit-transition-delay:0.2s;
-  transition-delay:0.2s;
-}
-
-.repeat-animation.ng-enter,
-.repeat-animation.ng-leave,
-.repeat-animation.ng-move {
-  -webkit-transition:0.5s linear all;
-  transition:0.5s linear all;
-}
-
-.repeat-animation.ng-leave.ng-leave-active,
-.repeat-animation.ng-enter,
-.repeat-animation.ng-move {
-  -webkit-transition:0.5s linear all;
-  transition:0.5s linear all;
-
-  opacity:0;
-  line-height:0;
-}
-
-.repeat-animation.ng-leave,
-.repeat-animation.ng-move.ng-move-active,
-.repeat-animation.ng-enter.ng-enter-active {
-  opacity:1;
-  line-height:20px;
-}
-
 .post a {
     text-decoration: none;
     border-bottom: 1px dotted #888;
 }
 
-.post a:hover{
+.post a:hover {
     background: rgba(100,100,100,0.1);
+}
+
+.modal-image {
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
 }

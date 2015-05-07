@@ -14,7 +14,7 @@ permalink: /about/
 <dd>It is not stunning. Don't
 judge me. The projects may look infantile or immature. These are
 not artistic or expressive designs. My role is to satisfy
-clients' expectations. </dd>
+clients' expectations. The presented design are just a sample.</dd>
 
 </dl>
 <dl class="dl-horizontal about">   <dt>  Me </dt>
