@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Scientific Poster"
-date:   2010-12-02 12:00:00
+date:   2015-07-01 12:00:00
 thumbnail: gis_poster_2015_thumb.png
 fullimage: gis_poster_2015_full.png
 tags:
