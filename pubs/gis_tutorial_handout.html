@@ -51,7 +51,7 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 <h1>Prerequisites</h1>
 <div id="download-software" class="section level2">
 <h2>Download software</h2>
-<p>For simpplicity of the installation and functionality QGIS seems to be a ligitimate choice. The software is available on major OS platforms (Windows, macOS, Linux). You can find a software <a href="http://www.qgis.org/en/site/forusers/download.html">here</a> and download version that is compatibile with your operating system. The file is quite big, and installation process may take a while. After downloading an installer, just follow instructions. There is no need to download additional data sources during the installation process. Although, you can do it later.</p>
+<p>For simplicity of the installation and functionality QGIS seems to be a legitimate choice. The software is available on major OS platforms (Windows, macOS, Linux). You can find a software <a href="http://www.qgis.org/en/site/forusers/download.html">here</a> and download version that is compatible with your operating system. The file is quite big, and installation process may take a while. After downloading an installer, just follow instructions. There is no need to download additional data sources during the installation process. Although, you can do it later.</p>
 <!-- ## Data for the tutorial -->
 <!-- Please, download the the data archive available here.  -->
 <!-- Extract the archive and keep the files in one folder.  -->
@@ -74,9 +74,9 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 <div id="vector-data" class="section level3">
 <h3>Vector data</h3>
 <ol style="list-style-type: decimal">
-<li>Polygons - to represent areas or surfaces: boarders of countries, states, coutnies, or islands.</li>
+<li>Polygons - to represent areas or surfaces: boarders of countries, states, counties, or islands.</li>
 <li>Lines - mostly for roads or rivers. They are different from lines to create a polygon.</li>
-<li>Points - a particular point in space (a pin on a map); specific site: hospital, firestation, household, etc.</li>
+<li>Points - a particular point in space (a pin on a map); specific site: hospital, fire station, household, etc.</li>
 </ol>
 </div>
 <div id="raster-data" class="section level3">
@@ -94,7 +94,7 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 <ul>
 <li><p>.shx - spatial index file</p></li>
 <li><p>.dbf – dBase<label for="tufte-sn-1" class="margin-toggle sidenote-number">1</label><input type="checkbox" id="tufte-sn-1" class="margin-toggle"><span class="sidenote"><span class="sidenote-number">1</span> One of many different database formats keeping all the information in one file. The reason to keep attributable information in database format is to facilitate database queries in GIS software.</span> file format which contains all attributes data – all other non-geographical information about each spatial element in the *.shp file; e.g. name, number of population, time, etc.</p></li>
-<li><p>other files contain additional information specific to indexing and other metadata; they are not required but may be created by additinal software.</p></li>
+<li><p>other files contain additional information specific to indexing and other metadata; they are not required but may be created by additional software.</p></li>
 </ul>
 <ol start="2" style="list-style-type: decimal">
 <li><p><a href="https://en.wikipedia.org/wiki/Keyhole_Markup_Language">KML</a> format - Keyhole Markup Language - XML based file format to encapsulate both geographically referenced and attributable data.</p></li>
@@ -151,13 +151,13 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 <li>Right-click on the target layer, choose <em>Properties</em>.</li>
 <li>In the new dialog-box select tab <em>Joins</em>.</li>
 <li>Click ‘+’ sign to add a new join.</li>
-<li>Select which layers are joined and which variable is used to match two datasets (match between the records in the *.dbf file and new source in external dataset).</li>
+<li>Select which layers are joined and which variable is used to match two data sets (match between the records in the *.dbf file and new source in external data set).</li>
 <li>Accept changes, right click again on the target layer and choose ‘Open Attribute table’.</li>
 <li>Inspect if the correct variables were added.</li>
 </ol></li>
 <li>Assign colors and labels to the geographical locations (see below).</li>
 </ol>
-<p>The external data file is only linked to the spatial object. Any changes made in the external dataset will be reflected once QGIS reloads the project (e.g. when you restart it).</p>
+<p>The external data file is only linked to the spatial object. Any changes made in the external data set will be reflected once QGIS reloads the project (e.g. when you restart it).</p>
 </div>
 <div id="creating-new-regions-based-on-geometries" class="section level2">
 <h2>Creating new regions based on geometries</h2>
@@ -241,7 +241,7 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 <li>It is better to</li>
 <li>Always match color scheme to your data. Sequential color scale for continuous one directional data; divergent scale for data when a middle point is a reference value; categorical scale for categorical data.</li>
 <li>When plotting densities using a continuous color scale NEVER use rainbow colors.</li>
-<li>The most advised cutpoints for continuous variables are based on quantiles; however it may strongly depend on your data distribution and range of values. You may consider other break types: natural, Jenks, deviation or equal interval.</li>
+<li>The most advised cut points for continuous variables are based on quantiles; however it may strongly depend on your data distribution and range of values. You may consider other break types: natural, Jenks, deviation or equal interval.</li>
 <li>Text on maps - the best option is to use upper right corner in relation to a point. <a href="https://spark-public.s3.amazonaws.com/maps/images/Lesson%25205/L5_Figure20.jpg">Here</a> is a guide showing the order of placing a text label.</li>
 </ol>
 <div id="making-data-spatial-geocoding" class="section level2">
