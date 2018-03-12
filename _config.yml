@@ -14,6 +14,6 @@ footer-links:
 
 # Build settings
 markdown: redcarpet
-highlighter: pygments
+highlighter: rouge
 sass:
     sass_dir: _sass

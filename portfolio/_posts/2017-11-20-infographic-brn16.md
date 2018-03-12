@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Infographic - BRN Survey 2016, UCSF"
-date:   2013-08-21
+date:   2017-11-20
 thumbnail: brn16_thumb.png
 fullimage: brn16_full.jpg
 tags:
