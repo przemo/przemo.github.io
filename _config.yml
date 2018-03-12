@@ -13,7 +13,6 @@ footer-links:
   twitter: przemek83
 
 # Build settings
-markdown: redcarpet
 highlighter: rouge
 sass:
     sass_dir: _sass
